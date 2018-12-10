@@ -6,9 +6,7 @@
 
 * Today's lesson is meant to be an exposure to the way things work in Angular. Point out that it's okay if students keep confusing terms like module and component since it will all come naturally as they get more exposure to the Angular world.
 
-* Students may still feel overwhelmed with TypeScript and ES6. Let them know that *almost*[^footnote] all ES6 is valid TypeScript, the strict typing is only there to help developers. Also, remind them that just like HTML/CSS the syntax will take a while to feel comfortable with. 
-
-[^footnote]: TypeScript vs ES6: Lately, Microsoft has been great at keeping TypeScript close to current ECMAScript support (usually less than a year behind), but this is subject to the user's dedication to constantly update versions. Just let students know that they won't run into issues unless they're trying to use bleeding-edge ES-insert-year-here. View ALL TypeScript changes [here](https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript).
+* Students may still feel overwhelmed with TypeScript and ES6. Let them know that *almost*<sup>[1](#footnote1)</sup> all ES6 is valid TypeScript, the strict typing is only there to help developers. Also, remind them that just like HTML/CSS the syntax will take a while to feel comfortable with. 
 
 ## Today's Objectives
 
@@ -36,7 +34,7 @@
 
 * Ensure that everyone has run `npm install -g @angular/cli`. *Don't forget the -g!*
 
-* Explain that to generate all the boilerplate code we'll need for an Angular app, we'll use the client by running `ng new` followed by a name for our application.
+* Explain that to generate all the boilerplate code we'll need for an Angular app, we'll use the CLI by running `ng new` followed by a name for our application.
 
 * Generate a new project
 ```bash
@@ -156,6 +154,8 @@ export class HulkComponent implements OnInit {
 
 * Demonstrate how we can alternatively write all of our component's code inside of `app.component.ts` Inform them that this would defeat the purpose of components and render that code impossible to reuse.
 
+* Instead of diving straight into event listeners, show the students how they would go about learning it on their own. Demonstrate either Google-Fu or open up the [documentation](https://angular.io/guide/user-input).
+
 * Point out that for TypeScript:
 
   * All valid JavaScript is valid TypeScript, with the exception of bleeding-edge syntax.
@@ -181,3 +181,5 @@ export class HulkComponent implements OnInit {
 
 # More...
 * I would expect that the remaining hours would cover `*ngFor`, routing, and hopefully services.
+
+<a name="footnote1">[1]</a> TypeScript vs ES6: Lately, Microsoft has been great at keeping TypeScript close to current ECMAScript support (usually less than a year behind), but this is subject to the user's dedication to constantly update versions. Just let students know that they won't run into issues unless they're trying to use bleeding-edge ES-insert-year-here. View ALL TypeScript changes [here](https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript).

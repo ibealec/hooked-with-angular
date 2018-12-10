@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-hulk',
-  templateUrl: './hulk.component.html',
-  styleUrls: ['./hulk.component.css']
+  selector: 'app-patrick',
+  templateUrl: './patrick.component.html',
+  styleUrls: ['./patrick.component.css']
 })
-export class HulkComponent implements OnInit {
-  name: string = 'Hulk';
-  secretName = 'Bruce Banner';
-  pathToImage: string = '../assets/images/hulk.jpeg';
-  power: string = 'Incredible Strength';
+export class PatrickComponent implements OnInit {
+  name: string = 'Patrick Star';
+  secretName = 'Mr. Dr. Professor Patrick';
+  pathToImage: string = '../assets/images/patrick.png';
+  power: string = 'Vast Intelligence';
 
   constructor() { }
 

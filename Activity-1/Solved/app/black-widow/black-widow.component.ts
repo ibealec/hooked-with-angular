@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class BlackWidowComponent implements OnInit {
   name: string = 'Black Widow';
   pathToImage: string = '../assets/images/black-widow.jpeg';
-  power: string = 'highly trained spy';
+  power: string = 'Highly Trained Martial Arts';
   
   constructor() { }
 

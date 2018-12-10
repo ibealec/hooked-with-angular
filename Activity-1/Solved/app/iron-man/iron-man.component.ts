@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class IronManComponent implements OnInit {
   name: string = 'Iron Man';
   pathToImage: string = '../assets/images/tony.jpeg';
-  power: string = 'vast intelligence';
-  
+  power: string = 'Brilliant Creativity';
+
   constructor() { }
 
   ngOnInit() {
