@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./iron-man.component.css']
 })
 export class IronManComponent implements OnInit {
+
   name: string = 'Iron Man';
-  pathToImage: string = '../assets/images/tony.jpeg';
+  // Since we are defining our string as we declare it, TypeScript infers its type.
+  // If we were to try changing this variable to a number somewhere else in our code, TypeScript would throw an error.
+  pathToImage = '../assets/images/tony.jpeg';
   power: string = 'vast intelligence';
   
   constructor() { }
