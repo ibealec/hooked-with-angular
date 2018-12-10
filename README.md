@@ -64,7 +64,7 @@ ng serve
 
 ![./assets/images/app-module.png](./assets/images/app-module.png)
 
-* Up next is the App component. This is our main component, where we will later link to other components from. Make sure to point out the naming convention for components (Camel Case) and hyphens for file names. 
+* Up next is the App component. This is our main component, where we will later link to other components from. Make sure to point out the PascalCase naming convention for components and kebab-case for file names. 
 
 ![./assets/images/app-component.png](./assets/images/app-component.png)
 
@@ -105,7 +105,7 @@ ng serve
 ```
 * Go back to the tab with the running server and show the application.
 
-* Make sure to point out that HulkComponent is automatically included in `app.module` AND it's CamelCased for components, and hyphenated for file names. But it's still not in our view.
+* Make sure to point out that HulkComponent is automatically included in `app.module` AND it's PascalCase for components, and kebab-case for file names. But it's still not in our view.
 
 * Also mention the file structure of generated components. Let students know that the CLI has documentation notating different options, like generating the components inline or changing the default `app` prefix.
 
