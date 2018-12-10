@@ -1,5 +1,7 @@
 # Angular Day 1
 
+## Things to Note
+
 * It is recommended that you arrange for students to globally install @angular/cli before class today.
 
 * Today's lesson is meant to be an exposure to the way things work in Angular. Point out that it's okay if students keep confusing terms like module and component since it will all come naturally as they get more exposure to the Angular world.
@@ -105,6 +107,8 @@ ng serve
 
 * Make sure to point out that HulkComponent is automatically included in `app.module` AND it's CamelCased for components, and hyphenated for file names. But it's still not in our view.
 
+* Also mention the file structure of generated components. Let students know that the CLI has documentation notating different options, like generating the components inline or changing the default `app` prefix.
+
 * Copy and paste the HTML from `iron-man.component.html` into the new component and feel free to use this code for your component: 
 ```typescript
 import { Component, OnInit } from '@angular/core';
@@ -154,15 +158,15 @@ export class HulkComponent implements OnInit {
 
   * All valid JavaScript is valid TypeScript, with the exception of bleeding-edge syntax.
 
-  * Just like with ES6, we are importing instead of using `require`.
+  * Just like with ES6, we use `import` statements instead of using `require`.
 
-  * If you define a variable in the same line you define it, TypeScript will automatically infer its type.
+  * If you define a variable in the same line you declare it, TypeScript will automatically infer its type.
 
-  * Even if you don't define a type, it will default to type: `Any`. 
+  * Even if you don't define the variable or its type, it will default to type: `Any`. 
 
 * Spend a few moments taking suggestions from the class on how you could improve your little app. Address whether or not Angular will allow them to do it. (Normally Angular will be involved in some way)
 
-* This good be a good time to mention that Angular and AngularJS are vastly different, and it could help to specify Angular2 when using Google-Fu.
+* This could be a good time to mention again that Angular and AngularJS are vastly different, and it could help to specify Angular2 when using Google-Fu.
 
 ## End of class
 
