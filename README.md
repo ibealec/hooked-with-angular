@@ -18,6 +18,8 @@
 
 ### 1. Instructor do: Go through slides (15 mins)
 
+* Walk through the slideshow [Getting Hooked with Angular](./assets/slideshows/getting_hooked_with_angular2.pptx). Try not to spend more than a minute on each slide, saving conversation about technical topics for later. This slideshow is just meant to introduce things conceptually.
+
 * Don't get hung up on the differences between libraries and frameworks. Keep to the slide and mention that you can't just add frameworks on, halfway through the project. It's an architectural decision.
 
 * The most important point of today's lesson is the concept of components that are responsible for producing pieces of an application's view and functionality. We separate things to make it easier for us to grab just what we need, and reuse it as many times as necessary, all while keeping concerns separate. Everything from blogs on a blog page, to profile pictures, to navigation bars can be separated out into modular, reusable pieces.
