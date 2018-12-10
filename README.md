@@ -6,7 +6,7 @@
 
 * Today's lesson is meant to be an exposure to the way things work in Angular. Point out that it's okay if students keep confusing terms like module and component since it will all come naturally as they get more exposure to the Angular world.
 
-* Students may still feel overwhelmed with TypeScript and ES6. Let them know that *almost*<sup>[1](#footnote1)</sup> all ES6 is valid TypeScript, the strict typing is only there to help developers. Also, remind them that just like HTML/CSS the syntax will take a while to feel comfortable with. 
+* Students may still feel overwhelmed with TypeScript and ES6. Let them know that *almost*<sup name="footnote1tag">[[1]](#footnote1)</sup> all ES6 is valid TypeScript, the strict typing is only there to help developers. Also, remind them that just like HTML/CSS the syntax will take a while to feel comfortable with. 
 
 ## Today's Objectives
 
@@ -182,4 +182,4 @@ export class HulkComponent implements OnInit {
 # More...
 * I would expect that the remaining hours would cover `*ngFor`, routing, and hopefully services.
 
-<a name="footnote1">[1]</a> TypeScript vs ES6: Lately, Microsoft has been great at keeping TypeScript close to current ECMAScript support (usually less than a year behind), but this is subject to the user's dedication to constantly update versions. Just let students know that they won't run into issues unless they're trying to use bleeding-edge ES-insert-year-here. View ALL TypeScript changes [here](https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript).
+<a name="footnote1" >[[1]](#footnote1tag)</a> TypeScript vs ES6: Lately, Microsoft has been great at keeping TypeScript close to current ECMAScript support (usually less than a year behind), but this is subject to the user's dedication to constantly update versions. Just let students know that they won't run into issues unless they're trying to use bleeding-edge ES-insert-year-here. View ALL TypeScript changes [here](https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript).
