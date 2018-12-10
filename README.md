@@ -62,8 +62,11 @@ ng serve
 
 ![./assets/images/app-module.png](./assets/images/app-module.png)
 
-* Up next is the App component.
+* Up next is the App component. This is our main component, where we will later link to other components from. Make sure to point out the naming convention for components (Camel Case) and hyphens for file names. 
 
+![./assets/images/app-component.png](./assets/images/app-component.png)
+
+* Lastly, show that the `app.component.html` is just regular HTML, aside from being able to use interpolation to bind our template to our component. Try changing `{{ title }}` to `{{ 2+2 }}` and `{{ title + 2+2 }}` to show that everything within double curly braces can be concatenated and added as well.
 
 * Assure the class that while it all seems very confusing, there isn't a need to completely memorize every aspect of the Angular CLI boilerplate yet. The Angular CLI makes it  The most important takeaways are:
 
