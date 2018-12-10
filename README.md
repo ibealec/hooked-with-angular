@@ -182,4 +182,5 @@ export class HulkComponent implements OnInit {
 # More...
 * I would expect that the remaining hours would cover `*ngFor`, routing, and hopefully services.
 
+## Footnotes
 <a name="footnote1" >[[1]](#footnote1tag)</a> TypeScript vs ES6: Lately, Microsoft has been great at keeping TypeScript close to current ECMAScript support (usually less than a year behind), but this is subject to the user's dedication to constantly update versions. Just let students know that they won't run into issues unless they're trying to use bleeding-edge ES-insert-year-here. View ALL TypeScript changes [here](https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript).
