@@ -70,7 +70,7 @@ ng serve
 
 * Lastly, show that the `app.component.html` is just regular HTML, aside from being able to use interpolation to bind our template to our component. Try changing `{{ title }}` to `{{ 2+2 }}` and `{{ title + 2+2 }}` to show that everything within double curly braces can be concatenated and added as well.
 
-* Assure the class that while it all seems very confusing, there isn't a need to completely memorize every aspect of the Angular CLI boilerplate yet. The Angular CLI makes it  The most important takeaways are:
+* Assure the class that while it all seems very confusing, there isn't a need to completely memorize every aspect of the Angular CLI boilerplate yet. The Angular CLI makes it easy to set up and configure different aspects of an application. The most important takeaways are:
 
     * We're going to be writing most of our code inside of the `app` folder.
 
